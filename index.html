@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BRAINDANCING // Criador de Personagem</title>
+<meta name="description" content="Braindancing — RPG de mesa no universo Cyberpunk. Crie seu personagem de forma rápida e simples.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ BACKGROUND FX ============ -->
+<div class="bg-grid"></div>
+<div class="bg-scanlines"></div>
+<div class="bg-vignette"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="navbar">
+  <div class="nav-logo" data-text="BRAINDANCING">BRAINDANCING</div>
+  <div class="nav-links">
+    <a href="#sobre">Sobre</a>
+    <a href="#mundo">Mundo</a>
+    <a href="#mecanicas">Mecânicas</a>
+    <a href="#criador" class="nav-cta">Criar Personagem</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="hero">
+  <div class="hero-noise"></div>
+  <div class="hero-content">
+    <p class="hero-kicker">// RPG DE MESA — AMBIENTAÇÃO CYBERPUNK — 2080</p>
+    <h1 class="hero-title glitch" data-text="BRAINDANCING">BRAINDANCING</h1>
+    <p class="hero-tagline">"How do you know what's real or not?"</p>
+    <p class="hero-sub">Um sistema híbrido criado para quem curte o simples e para os "combeiros" que amam algo mais complexo. Monte sua ficha em minutos e mergulhe em Night City após os eventos de <em>Cyberpunk 2077</em> e <em>Edgerunners</em>.</p>
+    <div class="hero-actions">
+      <a href="#criador" class="btn btn-primary">▶ Criar Personagem Agora</a>
+      <a href="#sobre" class="btn btn-ghost">Saiba mais</a>
+    </div>
+  </div>
+  <div class="hero-scroll">▼ role para explorar</div>
+</header>
+
+<!-- ============ SOBRE ============ -->
+<section class="section" id="sobre">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="tag">01</span> O que é o Braindancing?</h2>
+    <div class="grid-2">
+      <div class="card">
+        <p>Braindancing é um <strong>RPG de mesa</strong> totalmente baseado no universo <strong>Cyberpunk</strong>, misturando sistemas para criar algo único — feito tanto para quem gosta do simples quanto para os "combeiros" que curtem regras mais complexas.</p>
+        <p>Ideal para <strong>4 a 6 jogadores</strong>, mas pode ser jogado por quantos a mestre topar cuidar!</p>
+      </div>
+      <div class="card">
+        <p>A campanha se passa em <strong>2080</strong>, pouco depois dos eventos do jogo <em>Cyberpunk 2077</em> e do anime <em>Cyberpunk: Edgerunners</em> (2076). Todo o conhecimento adquirido nessas mídias pode e deve ser usado durante a história.</p>
+        <p>Alguns subsistemas (como o <em>Cyberpunk RED</em>) se passam bem antes desses eventos — qualquer dúvida ou implante extra pode ser discutido diretamente com a mestre.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MUNDO / LORE ============ -->
+<section class="section section-alt" id="mundo">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="tag">02</span> O Mundo</h2>
+    <div class="grid-3">
+      <div class="card card-neon">
+        <div class="card-icon">🌆</div>
+        <h3>Night City, 2080</h3>
+        <p>Ruas neon, megacorporações, gangues cibernéticas e a linha tênue entre humano e máquina. O que aconteceu depois de V? Cabe a vocês decidir.</p>
+      </div>
+      <div class="card card-neon">
+        <div class="card-icon">🧬</div>
+        <h3>Cibernéticas</h3>
+        <p>Implantes tecnológicos, próteses avançadas e modificações eletrônicas inseridas no corpo humano — substituindo partes perdidas ou concedendo verdadeiros superpoderes.</p>
+      </div>
+      <div class="card card-neon">
+        <div class="card-icon">🩸</div>
+        <h3>Ciberpsicose</h3>
+        <p>Quanto mais metal no corpo, mais perto da loucura. Escolha seus implantes com cuidado — o esqueleto é o único ponto seguro contra a ciberpsicose.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MECÂNICAS ============ -->
+<section class="section" id="mecanicas">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="tag">03</span> Mecânicas Rápidas</h2>
+    <div class="grid-4 stat-grid">
+      <div class="stat-card">
+        <div class="stat-num">Nv. 50</div>
+        <div class="stat-label">Nível inicial</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">10</div>
+        <div class="stat-label">Pontos de perícia</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">50 + 10/Corpo</div>
+        <div class="stat-label">Vida</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">25 + 10/Int</div>
+        <div class="stat-label">Sanidade</div>
+      </div>
+    </div>
+    <div class="grid-2" style="margin-top:2rem;">
+      <div class="card">
+        <h3>🔌 Cibernéticas por Slot</h3>
+        <p>Córtex 3 · Sistema Nervoso 3 · Pele 3 · Circulatório/Respiratório 3 · Esqueleto 2 · Mãos 2 · Braços 1 · Pernas 1 · Rosto/Olhos 1 · Sistema Operacional 1.</p>
+        <p class="small-note">Máximo de 1 cibernética TIER 5 por dezena de nível. Sistema Operacional, Olhos, Mãos e Pele são obrigatórios desde o início.</p>
+      </div>
+      <div class="card">
+        <h3>🔫 Armas &amp; Hacks</h3>
+        <p>1 arma pesada + 1 pistola + 1 arma de mão. Até <strong>5 + Corpo</strong> itens. Hacks custam RAM — você ganha <strong>2 RAM por ponto de Inteligência</strong>.</p>
+        <p class="small-note">Categorias de arma: fogo, inteligente, tecnológica, lâmina e arma de mão.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CRIADOR DE PERSONAGEM ============ -->
+<section class="section section-creator" id="criador">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="tag">04</span> Criador de Personagem Rápido</h2>
+    <p class="creator-intro">Siga os passos abaixo. Sua ficha é calculada automaticamente e pode ser exportada ou impressa ao final.</p>
+
+    <!-- Progress Stepper -->
+    <div class="stepper" id="stepper">
+      <div class="step active" data-step="0"><span>1</span>Identidade</div>
+      <div class="step" data-step="1"><span>2</span>Atributos</div>
+      <div class="step" data-step="2"><span>3</span>Cibernéticas</div>
+      <div class="step" data-step="3"><span>4</span>Armas &amp; Itens</div>
+      <div class="step" data-step="4"><span>5</span>Hacks</div>
+      <div class="step" data-step="5"><span>6</span>Ficha Final</div>
+    </div>
+
+    <div class="creator-layout">
+      <!-- MAIN PANEL -->
+      <div class="creator-main card">
+
+        <!-- STEP 0: Identidade -->
+        <div class="panel active" data-panel="0">
+          <h3>Identidade do Personagem</h3>
+          <div class="form-row">
+            <label for="charName">Nome do Personagem</label>
+            <input type="text" id="charName" placeholder="ex: Kira 'Zero-Day' Volkov" maxlength="40">
+          </div>
+          <div class="form-row">
+            <label for="charRole">Arquétipo / Rua</label>
+            <select id="charRole">
+              <option value="">— Escolha um arquétipo (opcional) —</option>
+              <option>Netrunner</option>
+              <option>Solo</option>
+              <option>Techie</option>
+              <option>Médico de Rua</option>
+              <option>Nômade</option>
+              <option>Fixer</option>
+              <option>Rockerboy</option>
+              <option>Policial Corrupto</option>
+              <option>Executivo Corporativo</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="charBio">História / Motivação (breve)</label>
+            <textarea id="charBio" rows="4" placeholder="De onde seu personagem veio? O que busca em Night City?"></textarea>
+          </div>
+          <div class="panel-nav">
+            <span></span>
+            <button class="btn btn-primary" data-next>Próximo →</button>
+          </div>
+        </div>
+
+        <!-- STEP 1: Atributos -->
+        <div class="panel" data-panel="1">
+          <h3>Distribua seus 10 Pontos de Perícia</h3>
+          <p class="panel-help">Você começa no <strong>nível 50</strong>. Distribua <strong id="pointsTotalLabel">10</strong> pontos entre as perícias abaixo. Corpo e Inteligência alimentam seus atributos derivados automaticamente.</p>
+          <div class="points-remaining">
+            Pontos restantes: <span id="pointsRemaining">10</span>
+          </div>
+          <div id="skillsContainer" class="skills-container"></div>
+          <div class="derived-stats" id="derivedStats"></div>
+          <div class="panel-nav">
+            <button class="btn btn-ghost" data-prev>← Voltar</button>
+            <button class="btn btn-primary" data-next>Próximo →</button>
+          </div>
+        </div>
+
+        <!-- STEP 2: Cibernéticas -->
+        <div class="panel" data-panel="2">
+          <h3>Escolha suas Cibernéticas</h3>
+          <p class="panel-help">Selecione implantes respeitando o limite de slots de cada parte do corpo. Sistema Operacional, Olhos, Mãos e Pele são recomendados desde o início.</p>
+          <div id="cyberContainer" class="cyber-container"></div>
+          <div class="panel-nav">
+            <button class="btn btn-ghost" data-prev>← Voltar</button>
+            <button class="btn btn-primary" data-next>Próximo →</button>
+          </div>
+        </div>
+
+        <!-- STEP 3: Armas & Itens -->
+        <div class="panel" data-panel="3">
+          <h3>Armas &amp; Equipamentos</h3>
+          <p class="panel-help">Escolha 1 arma pesada, 1 pistola e 1 arma de mão. Você também pode carregar até <strong id="itemLimitLabel">5</strong> itens.</p>
+
+          <div class="weapons-grid" id="weaponsGrid"></div>
+
+          <h4 class="sub-heading">Itens (máx. <span id="itemLimitLabel2">5</span>)</h4>
+          <div class="items-grid" id="itemsGrid"></div>
+
+          <div class="panel-nav">
+            <button class="btn btn-ghost" data-prev>← Voltar</button>
+            <button class="btn btn-primary" data-next>Próximo →</button>
+          </div>
+        </div>
+
+        <!-- STEP 4: Hacks -->
+        <div class="panel" data-panel="4">
+          <h3>Hacks (Trilha-Rede)</h3>
+          <p class="panel-help">Cada hack custa RAM. Seu limite de RAM é calculado a partir da Inteligência (2 RAM por ponto). RAM usada: <strong><span id="ramUsed">0</span> / <span id="ramTotal">0</span></strong></p>
+          <div id="hacksContainer" class="hacks-container"></div>
+          <div class="panel-nav">
+            <button class="btn btn-ghost" data-prev>← Voltar</button>
+            <button class="btn btn-primary" data-next>Ver Ficha Final →</button>
+          </div>
+        </div>
+
+        <!-- STEP 5: Ficha Final -->
+        <div class="panel" data-panel="5">
+          <h3>Sua Ficha está Pronta</h3>
+          <div id="sheetOutput" class="sheet-output"></div>
+          <div class="sheet-actions">
+            <button class="btn btn-primary" id="btnPrint">🖨 Imprimir / Salvar PDF</button>
+            <button class="btn btn-ghost" id="btnDownloadTxt">⬇ Baixar .TXT</button>
+            <button class="btn btn-ghost" id="btnDownloadJson">⬇ Baixar .JSON</button>
+            <button class="btn btn-danger" id="btnReset">↺ Recomeçar</button>
+          </div>
+          <div class="panel-nav">
+            <button class="btn btn-ghost" data-prev>← Voltar</button>
+            <span></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- SIDEBAR SUMMARY -->
+      <aside class="creator-sidebar card" id="sidebarSummary">
+        <h4>Resumo Rápido</h4>
+        <div class="sidebar-field"><span>Nome</span><strong id="sumName">—</strong></div>
+        <div class="sidebar-field"><span>Arquétipo</span><strong id="sumRole">—</strong></div>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-field"><span>Nível</span><strong>50</strong></div>
+        <div class="sidebar-field"><span>Vida</span><strong id="sumVida">50</strong></div>
+        <div class="sidebar-field"><span>Sanidade</span><strong id="sumSanidade">25</strong></div>
+        <div class="sidebar-field"><span>RAM</span><strong id="sumRam">0</strong></div>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-field"><span>Cibernéticas</span><strong id="sumCyber">0</strong></div>
+        <div class="sidebar-field"><span>Hacks</span><strong id="sumHacks">0</strong></div>
+        <div class="sidebar-field"><span>Itens</span><strong id="sumItems">0</strong></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="section cta-final">
+  <div class="section-inner center">
+    <h2 class="section-title center">Pronto para entrar em Night City?</h2>
+    <p>Baixe a ficha oficial em PDF ou use nosso criador rápido acima para começar sua jornada agora mesmo.</p>
+    <div class="hero-actions center">
+      <a href="https://drive.google.com/file/d/15w_13_Z8fkTZGgh7lQiP_HFYoV_Jw3le/view?usp=drive_link" target="_blank" rel="noopener" class="btn btn-ghost">📄 Ficha Oficial (PDF)</a>
+      <a href="#criador" class="btn btn-primary">▶ Criar Personagem</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>BRAINDANCING — um RPG de mesa fan-made ambientado no universo <em>Cyberpunk</em>. Feito com ♥ para a mesa. Dúvidas? Chame a mestre no privado.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
