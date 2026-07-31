@@ -182,6 +182,8 @@ const weaponsGrid = document.getElementById("weaponsGrid");
 const itemsGrid = document.getElementById("itemsGrid");
 const itemLimitLabel = document.getElementById("itemLimitLabel");
 const itemLimitLabel2 = document.getElementById("itemLimitLabel2");
+const customItemInput=document.getElementById("customItemInput");
+const addCustomItem=document.getElementById("addCustomItem");
 
 function renderWeapons() {
   weaponsGrid.innerHTML = "";
@@ -238,6 +240,7 @@ function renderItems() {
     itemsGrid.appendChild(chip);
   });
 }
+addCustomItem?.addEventListener("click",()=>{const v=customItemInput.value.trim();if(!v)return;if(!state.items.includes(v)&&state.items.length<getItemLimit())state.items.push(v);customItemInput.value="";renderItems();updateSidebar();});
 
 // ---------------- STEP 4: Hacks ----------------
 const hacksContainer = document.getElementById("hacksContainer");
