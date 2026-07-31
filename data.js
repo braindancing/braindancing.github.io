@@ -218,21 +218,21 @@ const CYBER_PARTS = [
 const HACKS = [
   { nome: "Veneno Viral", custo: 16, desc: "Infecta com veneno tóxico: 1d8/turno por 3 turnos. Espalha para até 2 inimigos próximos. Dano térmico o faz explodir (dobro de dano)." },
   { nome: "Chama Persistente", custo: 16, desc: "Coloca fogo no inimigo: 1d8/turno por 3 turnos. Reaplicável. Derrete até 40% da armadura em 9 turnos." },
-  { nome: "Curto Confuso", custo: 12, desc: "1d4 de dano + confusão por um turno. Robôs/câmeras/torretas tomam o dobro. Dano dobra a cada reaplicação." },
+  { nome: "Curto Confuso", custo: 10, desc: "1d4 de dano + confusão por um turno. Robôs/câmeras/torretas tomam o dobro. Dano dobra a cada reaplicação." },
   { nome: "Pulso Ensurdecedor", custo: 8, desc: "Ensurdece um inimigo, afetando detecção furtiva e impedindo comunicação." },
   { nome: "Sobrecarga Letal", custo: 24, desc: "Causa 2 de dano por RAM gasta na cena. Após o 1º uso, passa a custar -2 de RAM." },
   { nome: "Paralisia Total", custo: 20, desc: "Desabilita o movimento de qualquer alvo, incluindo robôs." },
   { nome: "Curto-Circuito Cibernético", custo: 20, desc: "Desativa cibernética inimiga por um turno. 3 conjurações: 1d4 de choque. 5 conjurações no mesmo alvo: quebra permanentemente." },
-  { nome: "Cegueira Total", custo: 12, desc: "Cega o inimigo (incluindo robôs, torretas e câmeras) por um turno." },
+  { nome: "Cegueira Total", custo: 10, desc: "Cega o inimigo (incluindo robôs, torretas e câmeras) por um turno." },
   { nome: "Sabotagem de Arma", custo: 16, desc: "Detona a arma primária do inimigo, forçando a troca até o fim do combate." },
   { nome: "Chamariz", custo: 8, desc: "Chama a atenção do inimigo para sua posição com a guarda baixa. Pode redirecionar para uma câmera. Uso único por inimigo." },
-  { nome: "Apagar Memória", custo: 12, desc: "O alvo esquece você (ou aliado escolhido) e desiste de procurar por um turno." },
+  { nome: "Apagar Memória", custo: 10, desc: "O alvo esquece você (ou aliado escolhido) e desiste de procurar por um turno." },
   { nome: "Varredura de Rede", custo: 8, desc: "Revela todos os inimigos conectados às tecnologias disponíveis." },
-  { nome: "Grito de Socorro Falso", custo: 12, desc: "Simula um pedido de ajuda para atrair um inimigo até um corpo abatido." },
+  { nome: "Grito de Socorro Falso", custo: 10, desc: "Simula um pedido de ajuda para atrair um inimigo até um corpo abatido." },
   { nome: "Fratricídio", custo: 20, desc: "Força o inimigo a atacar seu aliado mais próximo (ou a si mesmo, se sozinho)." },
   { nome: "Autodetonação", custo: 20, desc: "Força o inimigo a detonar a própria granada nas mãos." },
   { nome: "Autoexecução", custo: 24, desc: "Força o inimigo a atirar em si mesmo com a própria arma (ou roubar uma arma próxima)." },
-  { nome: "Nocaute Silencioso", custo: 12, desc: "Desmaia um inimigo sem alertar os demais, atacando o sistema nervoso." },
+  { nome: "Nocaute Silencioso", custo: 10, desc: "Desmaia um inimigo sem alertar os demais, atacando o sistema nervoso." },
 ];
 
 // ---------- ARMAS ----------

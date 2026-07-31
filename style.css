@@ -4,7 +4,7 @@
 
 :root {
   --bg-void: #05070d;
-  --bg-panel: #0c1220;
+  --bg-panel: #0c1020;
   --bg-panel-2: #101a2e;
   --neon-cyan: #00fff2;
   --neon-magenta: #ff2ea6;
@@ -67,7 +67,7 @@ p { color: var(--text-main); }
 .bg-grain {
   position: fixed; inset: -50%; z-index: -1; pointer-events: none; opacity: 0.05;
   width: 200%; height: 200%;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
   animation: grain-shift 1.2s steps(4) infinite;
 }
 @keyframes grain-shift {
@@ -123,7 +123,7 @@ p { color: var(--text-main); }
 /* Skyline silhouette + luzes da cidade no rodapé do hero */
 .hero-skyline {
   position: absolute; left: 0; right: 0; bottom: 0; height: 34vh; z-index: 1;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 320' preserveAspectRatio='none'><g fill='%23070b14'><rect x='0' y='140' width='60' height='180'/><rect x='70' y='90' width='40' height='230'/><rect x='120' y='160' width='55' height='160'/><rect x='185' y='60' width='45' height='260'/><rect x='240' y='120' width='70' height='200'/><rect x='320' y='40' width='38' height='280'/><rect x='365' y='170' width='60' height='150'/><rect x='435' y='100' width='45' height='220'/><rect x='490' y='150' width='80' height='170'/><rect x='580' y='70' width='40' height='250'/><rect x='630' y='130' width='55' height='190'/><rect x='695' y='30' width='42' height='290'/><rect x='745' y='160' width='65' height='160'/><rect x='820' y='90' width='48' height='230'/><rect x='880' y='150' width='70' height='170'/><rect x='960' y='55' width='40' height='265'/><rect x='1010' y='140' width='58' height='180'/><rect x='1080' y='100' width='45' height='220'/><rect x='1135' y='165' width='75' height='155'/><rect x='1220' y='75' width='40' height='245'/><rect x='1270' y='135' width='55' height='185'/><rect x='1335' y='45' width='42' height='275'/><rect x='1385' y='155' width='68' height='165'/><rect x='1460' y='95' width='46' height='225'/><rect x='1515' y='150' width='85' height='170'/></g></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 320' preserveAspectRatio='none'><g fill='%23070b14'><rect x='0' y='140' width='60' height='180'/><rect x='70' y='90' width='40' height='230'/><rect x='100' y='160' width='55' height='160'/><rect x='185' y='60' width='45' height='260'/><rect x='240' y='100' width='70' height='200'/><rect x='320' y='40' width='38' height='280'/><rect x='365' y='170' width='60' height='150'/><rect x='435' y='100' width='45' height='220'/><rect x='490' y='150' width='80' height='170'/><rect x='580' y='70' width='40' height='250'/><rect x='630' y='130' width='55' height='190'/><rect x='695' y='30' width='42' height='290'/><rect x='745' y='160' width='65' height='160'/><rect x='820' y='90' width='48' height='230'/><rect x='880' y='150' width='70' height='170'/><rect x='960' y='55' width='40' height='265'/><rect x='1010' y='140' width='58' height='180'/><rect x='1080' y='100' width='45' height='220'/><rect x='1135' y='165' width='75' height='155'/><rect x='1020' y='75' width='40' height='245'/><rect x='1070' y='135' width='55' height='185'/><rect x='1335' y='45' width='42' height='275'/><rect x='1385' y='155' width='68' height='165'/><rect x='1460' y='95' width='46' height='225'/><rect x='1515' y='150' width='85' height='170'/></g></svg>");
   background-repeat: no-repeat; background-position: bottom; background-size: cover;
   opacity: 0.9;
 }
@@ -131,7 +131,7 @@ p { color: var(--text-main); }
   content: ''; position: absolute; inset: 0;
   background-image:
     radial-gradient(2px 2px at 5% 40%, rgba(0,255,242,0.9), transparent),
-    radial-gradient(2px 2px at 12% 55%, rgba(255,46,166,0.8), transparent),
+    radial-gradient(2px 2px at 10% 55%, rgba(255,46,166,0.8), transparent),
     radial-gradient(2px 2px at 20% 30%, rgba(246,255,61,0.7), transparent),
     radial-gradient(2px 2px at 33% 60%, rgba(0,255,242,0.8), transparent),
     radial-gradient(2px 2px at 47% 35%, rgba(255,46,166,0.7), transparent),
@@ -164,7 +164,7 @@ p { color: var(--text-main); }
   color: #fff;
   margin: 0;
   line-height: 1;
-  text-shadow: 0 0 12px var(--neon-cyan), 0 0 40px rgba(0,255,242,0.4);
+  text-shadow: 0 0 10px var(--neon-cyan), 0 0 40px rgba(0,255,242,0.4);
 }
 /* glitch effect */
 .glitch { position: relative; }
@@ -221,7 +221,7 @@ p { color: var(--text-main); }
 }
 .btn-primary:hover { background: #fff; box-shadow: 0 0 25px rgba(0,255,242,0.9); transform: translateY(-2px); animation: none; }
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 12px rgba(0,255,242,0.45); }
+  0%, 100% { box-shadow: 0 0 10px rgba(0,255,242,0.45); }
   50% { box-shadow: 0 0 26px rgba(0,255,242,0.85); }
 }
 .btn-ghost {
@@ -389,7 +389,7 @@ p { color: var(--text-main); }
 .cyber-items { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
 @media (max-width: 700px) { .cyber-items { grid-template-columns: 1fr; } }
 .cyber-item {
-  background: var(--bg-void); border: 1px solid rgba(0,255,242,0.12); border-radius: 4px;
+  background: var(--bg-void); border: 1px solid rgba(0,255,242,0.10); border-radius: 4px;
   padding: 0.7rem 0.9rem; cursor: pointer; transition: all .15s;
 }
 .cyber-item:hover { border-color: var(--neon-cyan); }
@@ -409,7 +409,7 @@ p { color: var(--text-main); }
 .items-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
 @media (max-width: 700px) { .items-grid { grid-template-columns: 1fr 1fr; } }
 .item-chip {
-  background: var(--bg-void); border: 1px solid rgba(0,255,242,0.12); border-radius: 4px;
+  background: var(--bg-void); border: 1px solid rgba(0,255,242,0.10); border-radius: 4px;
   padding: 0.6rem 0.8rem; cursor: pointer; font-size: 0.9rem; transition: all .15s;
 }
 .item-chip.selected { border-color: var(--neon-magenta); background: rgba(255,46,166,0.08); color: #fff; }
@@ -419,7 +419,7 @@ p { color: var(--text-main); }
 .hacks-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.7rem; }
 @media (max-width: 700px) { .hacks-container { grid-template-columns: 1fr; } }
 .hack-item {
-  background: var(--bg-void); border: 1px solid rgba(0,255,242,0.12); border-radius: 4px;
+  background: var(--bg-void); border: 1px solid rgba(0,255,242,0.10); border-radius: 4px;
   padding: 0.7rem 0.9rem; cursor: pointer; transition: all .15s;
 }
 .hack-item:hover { border-color: var(--neon-cyan); }
