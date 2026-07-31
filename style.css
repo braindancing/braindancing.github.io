@@ -9,11 +9,11 @@
   --neon-cyan: #00fff2;
   --neon-magenta: #ff2ea6;
   --neon-yellow: #f6ff3d;
-  --neon-violet: #9b5cff;
+  --neon-violet: #da4bf7;
   --text-main: #d9f4f2;
-  --text-dim: #7a90a8;
-  --border-glow: rgba(0, 255, 242, 0.35);
-  --danger: #ff3b5c;
+  --text-dim: #827aa8;
+  --border-glow: rgba(17, 0, 255, 0.35);
+  --danger: #ff002b;
   --font-display: 'Orbitron', sans-serif;
   --font-body: 'Rajdhani', sans-serif;
   --font-mono: 'Share Tech Mono', monospace;
@@ -170,7 +170,7 @@ p { color: var(--text-main); }
 .glitch { position: relative; }
 .glitch::before, .glitch::after {
   content: attr(data-text);
-  position: absolute; left: 0; top: 0; width: 100%; height: 100%;
+  position: absolute; left: -2%; top: 0; width: 110%; height: 100%;
   overflow: hidden;
 }
 .glitch::before {
